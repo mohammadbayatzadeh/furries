@@ -1,0 +1,14 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-first-color: #130e22;
+  --bg-second-color: #0b0716;
+  --bg-third-color: #181228;
+  --first-color: #8457e6;
+  --second-color: rgba(231, 86, 225, 0.98);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
