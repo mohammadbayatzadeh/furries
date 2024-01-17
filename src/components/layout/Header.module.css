@@ -33,8 +33,6 @@
 
 .header button {
   background-color: var(--bg-third-color);
-  border: none;
-  outline: none;
   border-radius: 20px;
   padding: 15px 30px;
   min-width: 200px;

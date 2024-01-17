@@ -10,7 +10,7 @@ function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Header />
-      {children}
+      <div className={styles.body}>{children}</div>
     </div>
   );
 }
