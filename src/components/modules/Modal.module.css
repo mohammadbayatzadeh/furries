@@ -1,26 +1,44 @@
 .modal {
+  position: absolute;
   background-color: var(--bg-fourth-color);
   border-radius: 20px;
-  padding: 30px 70px;
-  position: absolute;
+  padding: 30px 60px;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  row-gap: 10px;
+  width: 600px;
 }
 .modal p {
   font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
 }
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-fourth-color);
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
 .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .row span {
   background-color: #392a75;
   padding: 10px 15px;
   border-radius: 15px;
-  margin: 15px 0;
+  text-align: center;
 }
 .modal button {
   width: 100%;
@@ -36,11 +54,28 @@
   font-weight: 500;
   padding: 15px;
   border-radius: 16px;
-  transition: all 0.5s ease;
   cursor: pointer;
 }
 .modal button:hover {
   -webkit-box-shadow: 4px 4px 5px 0px var(--first-color);
   -moz-box-shadow: 4px 4px 5px 0px var(--first-color);
   box-shadow: 4px 4px 5px 0px var(--first-color);
+}
+
+@media (max-width: 610px) {
+  .modal {
+    width: 90%;
+    padding: 30px 40px;
+  }
+  .modal h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .row {
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 10px;
+  }
 }

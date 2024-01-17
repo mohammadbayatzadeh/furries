@@ -22,12 +22,21 @@
   font-weight: 700;
   list-style: none;
 }
+.nav li {
+  display: flex;
+  align-items: center;
+}
 .nav a {
   color: white;
   text-decoration: none;
-  transition: all 0.5s ease;
 }
-.nav a:hover {
+.nav svg {
+  fill: white;
+  margin-right: 5px;
+}
+.nav li:hover svg,
+.nav li:hover a {
+  fill: var(--first-color);
   color: var(--first-color);
 }
 
@@ -47,7 +56,6 @@
   -webkit-text-fill-color: transparent;
   font-size: 16px;
   font-style: normal;
-  transition: all 0.5s ease;
   font-weight: 500;
   opacity: 0.7;
 }
