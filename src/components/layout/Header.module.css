@@ -22,23 +22,6 @@
   font-weight: 700;
   list-style: none;
 }
-.nav li {
-  display: flex;
-  align-items: center;
-}
-.nav a {
-  color: white;
-  text-decoration: none;
-}
-.nav svg {
-  fill: white;
-  margin-right: 5px;
-}
-.nav li:hover svg,
-.nav li:hover a {
-  fill: var(--first-color);
-  color: var(--first-color);
-}
 
 .header button {
   background-color: var(--bg-third-color);

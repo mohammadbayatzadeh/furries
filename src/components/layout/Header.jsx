@@ -9,6 +9,7 @@ import Staking from "../../assets/icons/Staking";
 import DApp from "../../assets/icons/DApp";
 import Epoch from "../../assets/icons/Epoch";
 import Creator from "../../assets/icons/Creator";
+import NavItem from "../elements/NavItem";
 
 function Header() {
   return (
@@ -16,22 +17,10 @@ function Header() {
       <img src={Logo} className={styles.logo} />
       <nav>
         <ul className={styles.nav}>
-          <li>
-            <Staking />
-            <a href="#">Staking</a>
-          </li>
-          <li>
-            <Creator />
-            <a href="#">Creator house</a>
-          </li>
-          <li>
-            <DApp />
-            <a href="#">DApp</a>
-          </li>
-          <li>
-            <Epoch />
-            <a href="#">Epoch clash</a>
-          </li>
+          <NavItem title="Staking" icon={<Staking />} link="/staking" />
+          <NavItem title="Creator house" icon={<Creator />} link="/creator" />
+          <NavItem title="DApp" icon={<DApp />} link="/dapp" />
+          <NavItem title="Epoch clash" icon={<Epoch />} link="/epoch" />
         </ul>
       </nav>
       <button>
