@@ -4,17 +4,19 @@ import React from "react";
 import styles from "./Header.module.css";
 
 //icons
-import Logo from "../../assets/icons/logo.png";
 import Staking from "../../assets/icons/Staking";
 import DApp from "../../assets/icons/DApp";
 import Epoch from "../../assets/icons/Epoch";
 import Creator from "../../assets/icons/Creator";
 import NavItem from "../elements/NavItem";
+import Logo from "../../assets/icons/Logo";
 
 function Header() {
   return (
     <header className={styles.header}>
-      <img src={Logo} className={styles.logo} />
+      <div className={styles.logo}>
+        <Logo />
+      </div>
       <nav>
         <input type="checkbox" id="menu-toggle" className={styles.checkbox} />
         <label className={styles.hamburger} htmlFor="menu-toggle">
