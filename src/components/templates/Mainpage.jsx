@@ -5,7 +5,7 @@ import Modal from "../modules/Modal";
 import SocialMedia from "../elements/SocialMedia";
 
 //styles
-import styles from "./Mainpage.module.css";
+import styles from "./MainPage.module.css";
 
 function Mainpage() {
   return (

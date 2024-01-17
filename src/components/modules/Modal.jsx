@@ -1,7 +1,7 @@
 import React from "react";
 
 //styles
-import styles from "./modal.module.css";
+import styles from "./Modal.module.css";
 
 function Modal() {
   return (

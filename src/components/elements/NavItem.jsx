@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 //styles
-import styles from "./navitem.module.css";
+import styles from "./Navitem.module.css";
 
 function NavItem({ link = "#", title, icon }) {
   const { pathname } = useLocation();
