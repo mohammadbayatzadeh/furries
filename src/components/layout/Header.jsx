@@ -14,9 +14,9 @@ import Logo from "../../assets/icons/Logo";
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      {/* <div className={styles.logo}>
         <Logo />
-      </div>
+      </div> */}
       <nav>
         <input type="checkbox" id="menu-toggle" className={styles.checkbox} />
         <label className={styles.hamburger} htmlFor="menu-toggle">
