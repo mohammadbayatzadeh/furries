@@ -18,12 +18,12 @@ function Header() {
         <Logo />
       </div> */}
       <nav>
-        <input type="checkbox" id="menu-toggle" className={styles.checkbox} />
-        <label className={styles.hamburger} htmlFor="menu-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
+          <input type="checkbox" id="menu-toggle" className={styles.checkbox} />
+          <label className={styles.hamburger} htmlFor="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         <ul className={styles.nav}>
           <NavItem title="Staking" icon={<Staking />} link="/staking" />
           <NavItem title="Creator house" icon={<Creator />} link="/creator" />
